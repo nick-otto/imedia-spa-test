@@ -1,0 +1,38 @@
+// fonts
+@import "~roboto-fontface/css/roboto/roboto-fontface.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: inherit;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: underline;
+  transition: ease opacity 0.3s 0s;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+a,
+div,
+table,
+body,
+html {
+  font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+.debug {
+  color: red;
+}
